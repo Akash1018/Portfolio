@@ -7,18 +7,24 @@
 }
 
 .headS{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 .heade{
     margin-top: -30px;
-    font-size: 4rem;
+    font-size: 3rem;
     color:#004792;
+}
+
+.headp{
+    font-size: 2.4rem;
+    color:#004792;
+    margin-top: -20px;
 }
 .resize{
     width: 17rem;
     height: 17rem;
     border-radius: 15rem;
-    onject-fit: cover;
+    object-fit: cover;
 }
 
   /* Media Query for Mobile Devices */
@@ -32,6 +38,11 @@
     .heade{
         font-size: 1.5rem;
         margin-top: -5px;
+    }
+    .headp{
+        font-size: 1rem;
+        color:#004792;
+        margin-top: -4px;
     }
    .introS{
     font-size: 0.5rem;
@@ -55,6 +66,11 @@
         font-size: 1.5rem;
         margin-top: -5px;
     }
+    .headp{
+        font-size: 1rem;
+        color:#004792;
+        margin-top: -4px;
+    }
    .introS{
     font-size: 1rem;
 }
@@ -74,6 +90,11 @@
     .heade{
         font-size: 2rem;
         margin-top: -5px;
+    }
+    .headp{
+        font-size: 1.5rem;
+        color:#004792;
+        margin-top: -4px;
     }
    .introS{
     font-size: 1rem;

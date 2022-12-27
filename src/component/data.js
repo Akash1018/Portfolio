@@ -1,6 +1,6 @@
-import banner from '../images/p2.png'
-import banner2 from '../images/p3.png'
-import banner1 from '../images/chat.png'
+import banner from '../static/p2.png'
+import banner2 from '../static/p3.png'
+import banner1 from '../static/chat.png'
 
 export const info = [
     {
