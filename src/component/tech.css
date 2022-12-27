@@ -1,0 +1,122 @@
+.torg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7rem;
+    background-color: rgb(215, 229, 241);
+}
+.icons{
+    
+}
+
+.li{
+    color: #0077c0;
+    font-weight: bold;
+}
+.halign{
+    text-align: center;
+}
+
+.palign{
+    text-align: center;
+}
+.isize{
+    font-size: 3rem;
+    padding:2rem 2rem ;
+    width: 17%;
+}
+
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+    .torg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        margin-top:5rem;
+    }
+    .icons{
+        
+    }
+    
+    .halign{
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    
+    .palign{
+        text-align: center;
+        
+    }
+    .isize{
+        font-size: 2rem;
+        padding:1rem 1.4rem ;
+        width: 18%;
+    }
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .torg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        margin-top:5rem;
+    }
+    .icons{
+        
+    }
+    
+    .halign{
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    
+    .palign{
+        text-align: center;
+        
+    }
+    .isize{
+        font-size: 3rem;
+        padding:1rem 1.4rem ;
+        width: 18%;
+    }
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .torg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem;
+    }
+    .icons{
+        
+    }
+    
+    .halign{
+        text-align: center;
+    }
+    
+    .palign{
+        text-align: center;
+    }
+    .isize{
+        font-size: 3rem;
+        padding:1.2rem 1rem ;
+        width: 19%;
+    }
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+  
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    
+}
+

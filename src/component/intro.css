@@ -1,0 +1,96 @@
+.struct{
+    padding: 7rem 5rem ;
+}
+.des{
+    display: flex;
+    flex-direction: row;
+}
+
+.headS{
+    font-size: 4rem;
+}
+.heade{
+    margin-top: -30px;
+    font-size: 4rem;
+    color:#004792;
+}
+.resize{
+    width: 17rem;
+    height: 17rem;
+    border-radius: 15rem;
+    onject-fit: cover;
+}
+
+  /* Media Query for Mobile Devices */
+  @media (max-width: 480px) {
+    .struct{
+        padding: 3rem 0rem;
+    }
+    .headS{
+        font-size: 1rem;
+    }
+    .heade{
+        font-size: 1.5rem;
+        margin-top: -5px;
+    }
+   .introS{
+    font-size: 0.5rem;
+}
+.resize{
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius:30rem ;
+ }
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .struct{
+        padding: 6rem 3rem;
+    }
+    .headS{
+        font-size: 1rem;
+    }
+    .heade{
+        font-size: 1.5rem;
+        margin-top: -5px;
+    }
+   .introS{
+    font-size: 1rem;
+}
+.resize{
+    border-radius:30rem;
+ }
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .struct{
+        padding: 10rem 5rem;
+    }
+    .headS{
+        font-size: 2rem;
+    }
+    .heade{
+        font-size: 2rem;
+        margin-top: -5px;
+    }
+   .introS{
+    font-size: 1rem;
+   }
+    .resize{
+    width: 13rem;
+    height: 13rem;
+    border-radius:30rem;
+   }
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+  
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    
+}

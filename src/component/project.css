@@ -1,0 +1,102 @@
+.palin{
+    text-align: center;
+}
+.ptext{
+    color:#004792;
+}
+.banner{
+    display: flex;
+    padding: 3rem;
+}
+
+.bcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    padding: 0rem 1rem;
+}
+
+.imsize{
+    width: 80%;
+}
+.ilook:hover{
+    width: 97%;
+    opacity: 0.5;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .palin{
+        text-align: center;
+    }
+    .ptext{
+        font-size: 1rem;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .bcontent{
+        display: flex;
+        flex-direction: column;
+        padding: 0rem 0rem;
+    }
+    
+    .imsize{
+        width: 100%;
+    }
+    .ilook:hover{
+        width: 97%;
+        opacity: 0.5;
+    }
+}
+ 
+.git{
+    color:#004792;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .struct{
+        padding: 6rem 3rem;
+    }
+    .headS{
+    font-size: 1.6rem;
+   }
+   .introS{
+    font-size: 1rem;
+}
+.resize{
+    border-radius:30rem;
+ }
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .struct{
+        padding: 10rem 5rem;
+    }
+    .headS{
+    font-size: 2rem;
+   }
+   .introS{
+    font-size: 1rem;
+   }
+    .resize{
+    border-radius:30rem;
+   }
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+  
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    
+}

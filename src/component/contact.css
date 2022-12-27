@@ -1,0 +1,79 @@
+.cbody{
+    background-color: rgb(215, 229, 241);
+}
+.calign{
+    padding: 4rem 4rem;
+}
+
+.ial{
+   display: flex;
+   justify-content: center;
+    font-size: 2.5rem;
+}
+
+.il{
+    padding: 0.2rem 2rem;
+}
+
+.endl{
+    color: black;
+}
+@media (max-width: 480px) {
+    .calign{
+        padding: 2.5rem 0.5rem;
+    }
+    
+    .ial{
+       display: flex;
+       justify-content: center;
+        font-size: 1.5rem;
+    }
+    
+    .il{
+        padding: 0.2rem 2rem;
+    }
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .calign{
+        padding: 4rem 4rem;
+    }
+    
+    .ial{
+       display: flex;
+       justify-content: center;
+        font-size: 2.5rem;
+    }
+    
+    .il{
+        padding: 0.2rem 2rem;
+    }
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .calign{
+        padding: 4rem 4rem;
+    }
+    
+    .ial{
+       display: flex;
+       justify-content: center;
+        font-size: 2.5rem;
+    }
+    
+    .il{
+        padding: 0.2rem 2rem;
+    }
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+  
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    
+}
