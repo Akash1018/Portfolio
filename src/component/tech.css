@@ -24,6 +24,12 @@
     font-size: 3rem;
     padding:2rem 2rem ;
     width: 17%;
+    transition: transform 250ms;
+}
+
+.isize:hover{
+    transform: translateY(-10px);
+    font-size: 3.2rem;
 }
 
  /* Media Query for Mobile Devices */
@@ -41,15 +47,15 @@
     
     .halign{
         text-align: center;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     
     .palign{
         text-align: center;
-        
+        font-size: 0.8rem;
     }
     .isize{
-        font-size: 2rem;
+        font-size: 1.8rem;
         padding:1rem 1.4rem ;
         width: 18%;
     }

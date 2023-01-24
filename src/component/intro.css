@@ -7,16 +7,16 @@
 }
 
 .headS{
-    font-size: 3rem;
+    font-size: 2.6rem;
 }
 .heade{
     margin-top: -30px;
-    font-size: 3rem;
+    font-size: 2.6rem;
     color:#004792;
 }
 
 .headp{
-    font-size: 2.4rem;
+    font-size: 2.3rem;
     color:#004792;
     margin-top: -20px;
 }
@@ -27,20 +27,25 @@
     object-fit: cover;
 }
 
+.introS{
+    width: 80%;
+    font-weight: 100;
+}
+
   /* Media Query for Mobile Devices */
   @media (max-width: 480px) {
     .struct{
-        padding: 3rem 0rem;
+        padding: 3rem 1rem;
     }
     .headS{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .heade{
-        font-size: 1.5rem;
+        font-size: 0.8rem;
         margin-top: -5px;
     }
     .headp{
-        font-size: 1rem;
+        font-size: 0.8rem;
         color:#004792;
         margin-top: -4px;
     }
@@ -57,7 +62,7 @@
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
     .struct{
-        padding: 6rem 3rem;
+        padding: 2rem 3rem;
     }
     .headS{
         font-size: 1rem;
@@ -82,7 +87,7 @@
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px){
     .struct{
-        padding: 10rem 5rem;
+        padding: 10rem 1rem;
     }
     .headS{
         font-size: 2rem;

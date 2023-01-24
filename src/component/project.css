@@ -6,25 +6,36 @@
 }
 .banner{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 3rem;
 }
 
 .bcontent{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-self: center;
-    padding: 0rem 1rem;
+
+}
+
+.para{
+    padding: 2rem 2rem;
+    font-size: 1.2rem;
+}
+.ilook{
+    transition: transform 250ms;
+}
+.ilook:hover{
+    transform: translateY(-10px);
+}
+.arr{
+    display: flex;
+    flex-direction: row;
 }
 
 .imsize{
-    width: 80%;
+    width: 23rem;
 }
-.ilook:hover{
-    width: 97%;
-    opacity: 0.5;
-}
-
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
     .palin{
@@ -43,6 +54,14 @@
         display: flex;
         flex-direction: column;
         padding: 0rem 0rem;
+    }
+    .arr{
+        display: flex;
+        flex-direction: column;
+    }
+    .para{
+        padding: 0rem 0rem;
+        font-size: 0.8rem;
     }
     
     .imsize{
@@ -70,6 +89,14 @@
    .introS{
     font-size: 1rem;
 }
+.arr{
+    display: flex;
+    flex-direction: column;
+}
+.para{
+    padding: 0rem 0rem;
+    font-size: 0.8rem;
+}
 .resize{
     border-radius:30rem;
  }
@@ -89,6 +116,14 @@
     .resize{
     border-radius:30rem;
    }
+   .arr{
+    display: flex;
+    flex-direction: row;
+}
+.para{
+    padding: 1rem 1rem;
+    font-size: 0.8rem;
+}
 }
   
 /* Media Query for Laptops and Desktops */

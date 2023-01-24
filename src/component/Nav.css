@@ -1,9 +1,14 @@
 .struc{
     padding: 50px 50px;
+    font-size: 1.2rem;
 }
 .org{
     display: flex;
     justify-content: space-between;
+    transition: transform 250ms;
+}
+.org:hover{
+    transform: translateY(-10px);
 }
 .home{
     text-decoration: none;
@@ -16,6 +21,7 @@
  @media (max-width: 480px) {
     .struc{
         padding: 20px 20px;
+        font-size: 0.8rem;
     }
 }
   

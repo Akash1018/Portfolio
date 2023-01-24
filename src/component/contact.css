@@ -9,10 +9,15 @@
    display: flex;
    justify-content: center;
     font-size: 2.5rem;
+  
+}
+.il:hover{
+    transform: translateY(-10px);
 }
 
 .il{
     padding: 0.2rem 2rem;
+    transition: transform 250ms;
 }
 
 .endl{

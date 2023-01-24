@@ -12,7 +12,7 @@ const contact = () => {
                 Get in touch.
             </h1>
             <p>
-                I would be happy to further discuss with you, simply shoot me an email or message me on LinkedIn! :)
+               I would be happy to further discuss with you, simply shoot me an email or message me on LinkedIn! :)
             </p>
         </div>
         <div className='ial'>

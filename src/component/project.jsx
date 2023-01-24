@@ -12,10 +12,12 @@ const project = () => {
             info.map(item => (
               <div  className='bcontent'>
               <h1 className='ptext'>{item.name}</h1>
+              <div className='arr'>
               <div className='ilook'>
               <a href={item.linksite} target="_blank"><img className='imsize' src = {item.img}  /></a>
               </div>
-              <p>{item.detail}<a href={item.linkgit} target="_blank" className='git'>Git.</a></p>
+              <p className='para'>{item.detail}<a href={item.linkgit} target="_blank" className='git'>Git.</a></p>
+              </div>
               </div>
             ))
             
