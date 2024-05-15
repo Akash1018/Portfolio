@@ -19,8 +19,8 @@ const Nav = () => {
   return (
     <div className='struc'>
         <div className='org'>
-            <a onClick={onButtonClick} style={{color:"#0077c0"}} className='home'>Resume</a>
-            <Link to="contact" spy={true} smooth={true} offset={50} duration={1000} style={{color:"#0077c0"}} className='home'>contact</Link>
+            <a onClick={onButtonClick} className='home'>Resume</a>
+            <Link to="contact" spy={true} smooth={true} offset={50} duration={1000} className='home'>contact</Link>
         </div>
     </div>
   )

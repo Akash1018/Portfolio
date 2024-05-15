@@ -1,50 +1,40 @@
-.struc{
-    padding: 50px 50px;
-    font-size: 1.2rem;
+.struc {
+  padding: 50px 50px;
+  font-size: 1.2rem;
 }
-.org{
-    display: flex;
-    justify-content: space-between;
-    transition: transform 250ms;
+.org {
+  display: flex;
+  justify-content: space-between;
 }
-.org:hover{
-    transform: translateY(-10px);
+.home {
+  text-decoration: none;
+  color: #0077c0;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 250ms;
 }
-.home{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    cursor: pointer;
+.home:hover {
+  transform: translateY(-10px);
 }
 
- /* Media Query for Mobile Devices */
- @media (max-width: 480px) {
-    .struc{
-        padding: 20px 20px;
-        font-size: 0.8rem;
-    }
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .struc {
+    padding: 20px 20px;
+    font-size: 0.8rem;
+  }
 }
-  
+
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
-    .struc{
-        padding: 20px 20px;
-    }
+  .struc {
+    padding: 20px 20px;
+  }
 }
-  
+
 /* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1024px){
-    .struc{
-        padding: 30px 30px;
-    }
-}
-  
-/* Media Query for Laptops and Desktops */
-@media (min-width: 1025px) and (max-width: 1280px){
-  
-}
-  
-/* Media Query for Large screens */
-@media (min-width: 1281px) {
-    
+@media (min-width: 768px) and (max-width: 1024px) {
+  .struc {
+    padding: 30px 30px;
+  }
 }

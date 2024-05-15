@@ -4,8 +4,7 @@ import './project.css'
 
 const project = () => {
   return (
-    <div>
-      <div>
+    <div className='project_content'>
         <h1 className="palin">Projects.</h1>
         <div className='banner'>
           {
@@ -23,7 +22,6 @@ const project = () => {
             
           }
         </div>
-      </div>
     </div>
   )
 }

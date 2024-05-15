@@ -1,0 +1,20 @@
+.exp_content {
+  background-color: rgb(215, 229, 241);
+  padding: 3rem;
+}
+.top_heading {
+  text-align: center;
+}
+.exp_content-item {
+  display: flex;
+}
+.exp_content-banner {
+  width: 100px;
+  height: 100px;
+}
+.exp_content-info {
+  margin-left: 20px;
+}
+.exp_content-company--position {
+  margin: 0px;
+}
