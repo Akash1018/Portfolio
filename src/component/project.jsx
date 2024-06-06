@@ -4,7 +4,7 @@ import './project.css'
 
 const project = () => {
   return (
-    <div className='project_content'>
+    <div className='project_content' id='projects'>
         <h1 className="palin">Projects.</h1>
         <div className='banner'>
           {

@@ -12,7 +12,7 @@ const Tech = () => {
     const [loadName, setloadName] = useState(name[0]);
 
   return (
-    <div className='torg'>
+    <div className='torg' id='tech'>
         <div className="daline">
             <h1 className='halign'>Technologies and Tools</h1>
             <p className='palign'>Here are some tools and technologies that i use <a className='li'>{loadName}</a></p>

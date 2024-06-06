@@ -1,16 +1,26 @@
-.struc {
-  padding: 50px 50px;
-  font-size: 1.2rem;
-}
-.org {
+.navbar_main {
   display: flex;
+  padding: 20px;
+  font-size: 1.2rem;
   justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  max-width: 1406px;
+  width: 100%;
+  transition: background-color .5s ease-in-out;
+}
+.test {
+  display: flex;
+}
+
+.navbar_content-info {
+  display: flex;
+  gap: 48px;
 }
 .home {
   text-decoration: none;
   color: #0077c0;
   font-weight: bold;
-  cursor: pointer;
   transition: transform 250ms;
 }
 .home:hover {
