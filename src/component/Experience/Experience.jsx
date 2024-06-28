@@ -1,26 +1,27 @@
 import React from "react";
-import { experience } from "./data";
+import { experience } from "../data";
 import "./Experience.css";
 
 const Exprience = () => {
   return (
     <div className="exp_content" id="experience">
-      <h1 className="top_heading">Experience</h1>
+      <h1 className="top_heading">My Experience</h1>
+      <div className="experience_innerContainer">
       {experience.map((item) => (
-        <div className="exp_content-company">
-          <h2>{item.company}</h2>
           <div className="exp_content-item">
-            <img className="exp_content-banner" src={item.img} />
             <div className="exp_content-info">
+              <div className="exp_content-company--time">
               <h4 className="exp_content-company--position">{item.postion}</h4>
-              <h5>Tech Stack: {item.tech}</h5>
+              <h4 className="exp_content-company--duration">TimeStamp</h4>
+              </div>
+              <h4 className="exp_content-company--name">{item.company}</h4>
               {item.detail.map((info) => (
                 <p>{info}</p>
               ))}
             </div>
-          </div>
         </div>
       ))}
+      </div>
     </div>
   );
 };

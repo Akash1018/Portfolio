@@ -1,42 +1,50 @@
-.torg{
+.skill_main{
     display: flex;
-    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 7rem 0;
+    column-gap: 4rem;
+}
+
+.skill_main.light-mode {
+    background-color: #fcf0c8;
+}
+
+.skill_main.dark-mode {
+    background-color: #131924;
+}
+
+.skill_content {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding: 7rem;
-}
-.icons{
-    
 }
 
-.li{
-    color: #0077c0;
-    font-weight: bold;
-}
-.halign{
-    text-align: center;
+.skills_content-icons {
+    flex-basis: 50%;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 550px;
+    transition: gap .5s ease-in-out, max-width .5s ease-in-out;
+    flex-wrap: wrap;
 }
 
-.palign{
-    text-align: center;
-}
 .isize{
-    font-size: 3rem;
-    padding:2rem 2rem ;
-    width: 17%;
+    padding:1rem 1rem ;
+    width: 40px;
+    height: 35px;
     transition: transform 250ms;
 }
 
 .isize:hover{
     transform: translateY(-10px);
-    font-size: 3.2rem;
 }
 
  /* Media Query for Mobile Devices */
  @media (max-width: 480px) {
-    .torg{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .skills_main{
         padding: 1rem;
         margin-top:5rem;
     }
@@ -44,28 +52,24 @@
         
     }
     
-    .halign{
-        text-align: center;
+    .skills_content-heading{
         font-size: 1.2rem;
     }
     
-    .palign{
-        text-align: center;
+    .skills_content-para{
         font-size: 0.8rem;
     }
     .isize{
         font-size: 1.8rem;
         padding:1rem 1.4rem ;
-        width: 18%;
+        width: 40px;
+        height: 35px;
     }
 }
   
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
-    .torg{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .skills_main{
         padding: 1rem;
         margin-top:5rem;
     }
@@ -73,45 +77,31 @@
         
     }
     
-    .halign{
-        text-align: center;
+    .skills_content-heading{
         font-size: 1.4rem;
     }
     
-    .palign{
-        text-align: center;
+    .skills_content-para{
         
     }
     .isize{
         font-size: 3rem;
         padding:1rem 1.4rem ;
-        width: 18%;
+        width: 40px;
+        height: 35px;
     }
 }
   
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px){
-    .torg{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .skills_main{
         padding: 3rem;
-    }
-    .icons{
-        
-    }
-    
-    .halign{
-        text-align: center;
-    }
-    
-    .palign{
-        text-align: center;
     }
     .isize{
         font-size: 3rem;
         padding:1.2rem 1rem ;
-        width: 19%;
+        width: 42px;
+        height: 35px;
     }
 }
   
