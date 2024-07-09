@@ -1,19 +1,27 @@
 .project_content {
   background-color: #fcf0c8;
 }
+
+.project_content_info {
+  display: flex;
+}
+
+.project_content_info.is-reverse {
+  flex-direction: row-reverse;
+}
+
+.project_content_info-content {
+  display: flex;
+  flex-direction: column;
+}
+
 .palin {
   text-align: center;
 }
 .ptext {
   color: #004792;
 }
-.banner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 3rem;
-}
+
 
 .bcontent {
   display: flex;
@@ -21,7 +29,6 @@
 }
 
 .para {
-  padding: 2rem 2rem;
   font-size: 1.2rem;
 }
 .ilook {

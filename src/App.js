@@ -4,6 +4,7 @@ import Skills from "./component/Skills/Skills";
 import Project from "./component/Projects/Project";
 import Contact from "./component/contact";
 import Exprience from "./component/Experience/Experience";
+import { SideBar } from "./component/SideBar/SideBar";
 import Cursor from "./component/Cursor";
 import { useState } from "react";
 import './App.css'
@@ -17,6 +18,7 @@ function App() {
 
   return (
     <div className={`App ${isDarkMode ? "dark-mode" : "light-mode"}`} style={{cursor: "none"}}>
+      <div>
       <Nav isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode}/>
       <Intro />
       <Skills isDarkMode={isDarkMode}/>
@@ -24,6 +26,8 @@ function App() {
       <Project isDarkMode={isDarkMode}/>
       <Contact />
       <Cursor />
+      </div>
+      <SideBar />
     </div>
   );
 }

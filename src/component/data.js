@@ -15,7 +15,7 @@ export const info = [
     linksite: "https://ecommerce-front.onrender.com/",
   },
   {
-    id: "3",
+    id: "2",
     name: "Social Media Platform",
     detail:
       " a full-stack social media application. With email and Google Authentication, pagination, search and filtering capabilities, comments, and much more, this app is the best fully responsive MERN social media application ",
@@ -24,7 +24,7 @@ export const info = [
     linksite: "https://social-app-akash.onrender.com",
   },
   {
-    id: "2",
+    id: "3",
     name: "Unichat",
     detail:
       "Chat Application with social authentication including Google using Firebase, image support, sound notifications, the ability to create multiple rooms, and much more. ",
