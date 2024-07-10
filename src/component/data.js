@@ -37,7 +37,7 @@ export const info = [
 export const experience = [
   {
     company: "MonoType",
-    postion: "Software Engineer (Intern)",
+    postion: "Software Engineer",
     img: company1,
     detail: [
       "Utilized a wide range of technologies including Vue.js, React.js, Nods.js, JavaScript, HTML, and CSS.",
@@ -53,10 +53,11 @@ export const experience = [
       "GraphQL, ",
       "JavaScript.",
     ],
+    timeStamp: "Nov 2023 - Present"
   },
   {
     company: "Bex Card",
-    postion: "Software Engineer (Intern)",
+    postion: "Software Engineer",
     img: company2,
     detail: [
       "Utilized a wide range of technologies including Amazon Web Services (AWS), AWS Lambda, AWS CloudFormation, Amazon DynamoDB, TypeScript, Terraform, and Node.js.",
@@ -71,5 +72,6 @@ export const experience = [
       "Terraform, ",
       "TypeScript.",
     ],
+    timeStamp: "Mar 2023 - Sep 2023"
   },
 ];

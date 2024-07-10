@@ -12,11 +12,11 @@ const Exprience = () => {
             <div className="exp_content-info">
               <div className="exp_content-company--time">
               <h4 className="exp_content-company--position">{item.postion}</h4>
-              <h4 className="exp_content-company--duration">TimeStamp</h4>
+              <h4 className="exp_content-company--duration">{item.timeStamp}</h4>
               </div>
               <h4 className="exp_content-company--name">{item.company}</h4>
               {item.detail.map((info) => (
-                <p>{info}</p>
+                <p class="exp_content-company--detail">{info}</p>
               ))}
             </div>
         </div>

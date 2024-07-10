@@ -1,0 +1,33 @@
+.cursor {
+}
+
+.cursor_dot {
+  height: 10px;
+  width: 10px;
+  z-index: 6;
+  position: fixed;
+  border-radius: 50%;
+  top: -100px;
+  left: -100px;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 1;
+  transition: height 0.25s ease-in-out, width 0.25s ease-in-out,
+    background-color 0.25s ease-in-out, opacity 0.25s ease-in-out;
+}
+
+.cursor_ring {
+  z-index: 5;
+  position: fixed;
+  top: -100px;
+  left: -100px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 1;
+  transition: height 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33),
+    width 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33),
+    background-color 0.25s ease-in-out, opacity 0.25s ease-in-out;
+}

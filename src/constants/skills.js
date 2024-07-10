@@ -14,20 +14,41 @@ import Express from '../static/tech/express.svg';
 import Mongo from '../static/tech/mongodb.svg';
 import Github from '../static/tech/github.svg';
 import Git from '../static/tech/git.svg';
+import Java from '../static/tech/java.svg'
+import Cpp from '../static/tech/c.svg';
+import AWS from '../static/tech/aws.svg'
 
 console.log(Bootstrap)
 const skillIcons = [
 	{
-		Component: TypeScript,
-		name: 'TypeScript',
-		alt: 'typescript',
-		url: 'https://www.typescriptlang.org/',
+		Component: Cpp,
+		name: 'C++',
+		alt: 'c++',
+		url: 'https://cplusplus.com/doc/tutorial/',
+	},
+	{
+		Component: Java,
+		name: 'Java',
+		alt: 'java',
+		url: 'https://www.java.com/en/',
+	},
+	{
+		Component: AWS,
+		name: 'AWS',
+		alt: 'aws',
+		url: 'https://aws.amazon.com/',
 	},
 	{
 		Component: JavaScript,
 		name: 'JavaScript',
 		alt: 'javascript',
 		url: 'https://www.javascript.com/',
+	},
+	{
+		Component: TypeScript,
+		name: 'TypeScript',
+		alt: 'typescript',
+		url: 'https://www.typescriptlang.org/',
 	},
 	{
 		Component: ReactIcon,

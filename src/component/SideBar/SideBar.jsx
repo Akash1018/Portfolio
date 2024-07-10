@@ -3,11 +3,11 @@ import LeftBar from './LeftBar';
 import RightBar from "./RightBar";
 import './SideBar.css';
 
-export const SideBar = () => {
+export const SideBar = ({isDarkMode}) => {
     return (
         <div className="sideBar_content">
-            <LeftBar />
-            <RightBar />
+            <LeftBar isDarkMode={isDarkMode}/>
+            <RightBar isDarkMode={isDarkMode}/>
         </div>
     )
 }

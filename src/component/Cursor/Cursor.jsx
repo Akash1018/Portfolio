@@ -14,8 +14,9 @@ const Cursor = () => {
     },[])
 
     return (
-        <div ref={cursor} className="cursor">
-            <div className="cursor_dot"></div>
+        <div className="cursor">
+            <div ref={cursor} className="cursor_dot"></div>
+            <div ref={cursor} className="cursor_ring"></div>
         </div>
     )
 }

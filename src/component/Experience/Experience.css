@@ -1,8 +1,12 @@
 .exp_content {
   max-width: 1600px;
   margin: 0 auto;
-  padding: 0 150px;
+  padding: 50px 150px;
   transition: padding .5s ease-in-out;
+}
+
+.top_heading {
+  font-size: 2.2rem;
 }
 
 .experience_innerContainer::before {
@@ -14,7 +18,7 @@
   left: 0;
   border-radius: 20px;
   transition: background-color 0.5s ease-in-out;
-  background-color: #fcf0c8;
+  background-color: #aad2f5;
 }
 
 .experience_innerContainer {
@@ -42,7 +46,7 @@ transition: margin-bottom .5s ease-in-out;
   border-radius: 100%;
   transition: background-color .5s ease-in-out, border .5s ease-in-out, left .5s ease-in-out;
   background-color: #fcf9ed;
-    border: 4px solid #fa8b00;
+  border: 4px solid #0077c0;
 }
 
 .exp_content-company--time {
@@ -52,12 +56,116 @@ transition: margin-bottom .5s ease-in-out;
 
 .exp_content-company--position {
   margin: 4px 0 8px;
+  font-size: 1.2rem;
 }
 
 .exp_content-company--duration {
   margin: 4px 0 8px;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
 .exp_content-company--name {
-  margin: 0;
+  margin: 0; 
+  font-size: 1.2rem;
+}
+
+.exp_content-company--detail {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+@media (max-width: 480px) {
+  .exp_content {
+    margin: 0 auto;
+    padding: 20px 30px;
+    transition: padding .5s ease-in-out;
+  }
+  .top_heading {
+    font-size: 1.6rem;
+  }
+  .experience_innerContainer {
+    padding-left: 1.2rem;
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .exp_content-company--time {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .exp_content-company--position {
+    margin: 4px 0 2px;
+    font-size: 1.2rem;
+  }
+  
+  .exp_content-company--duration {
+    margin: 2px 0 4px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    opacity: 0.6;
+  }
+  
+  .exp_content-company--name {
+    margin: 0; 
+    font-size: 1.2rem;
+  }
+  
+  .exp_content-company--detail {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 10px 0 0 0;
+  }
+
+  .experience_innerContainer::before {
+    width: 6px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 20px;
+  }
+
+  .exp_content-item::before {
+    width: 12px;
+    height: 12px;
+    top: 6px;
+    left: calc(-1.2rem - 6px);
+    border-radius: 100%;
+    border: 4px solid #0077c0;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .exp_content {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    transition: padding .5s ease-in-out;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+  .exp_content {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 50px 50px;
+    transition: padding .5s ease-in-out;
+  }
+  .experience_innerContainer {
+    padding-left: 1.6rem;
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .exp_content-item::before {
+    width: 12px;
+    height: 12px;
+    top: 6px;
+    left: calc(-1.6rem - 6px);
+    border-radius: 100%;
+    border: 4px solid #0077c0;
+  }
 }

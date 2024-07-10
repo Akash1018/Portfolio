@@ -7,10 +7,17 @@
   position: fixed;
   max-width: 1406px;
   width: 100%;
+  top: 0;
   transition: background-color .5s ease-in-out;
+  transition: top 0.3s ease;
 }
-.test {
-  display: flex;
+
+.navbar_main.is-hidden {
+  top: -100px;
+}
+
+.navBar-icon {
+  padding: 1rem;
 }
 
 .navbar_content-info {
@@ -21,30 +28,43 @@
   text-decoration: none;
   color: #0077c0;
   font-weight: bold;
-  transition: transform 250ms;
+  transition: color 250ms;
+  cursor: pointer;
 }
 .home:hover {
-  transform: translateY(-10px);
+  color: #004792;
 }
 
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
-  .struc {
-    padding: 20px 20px;
+  .navbar_main {
+    padding: 10px 0;
     font-size: 0.8rem;
+  }
+  .navbar_content-info {
+    display: none;
+  }
+  .navBar-icon {
+    padding: 0;
   }
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
-  .struc {
-    padding: 20px 20px;
+  .navbar_main {
+    padding: 15px 0;
+  }
+  .navBar-icon {
+    padding: 0;
   }
 }
 
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
-  .struc {
-    padding: 30px 30px;
+  .navbar_main {
+    padding: 15px 0;
+  }
+  .navBar-icon {
+    padding: 0;
   }
 }

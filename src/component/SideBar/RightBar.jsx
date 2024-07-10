@@ -4,10 +4,8 @@ import './SideBar.css';
 const RightBar = () => {
     return (
         <div className="sideBar_item rightBar_content">
-        <h1>
-            hi
-        </h1>
-    </div>
+            <a target="_blank" rel="noreferrer" href="mailto:akash101811@gmail.com" className="tt"><span>contact</span>@akash_chaudhary.dev</a>
+        </div>
     )
 }
 
