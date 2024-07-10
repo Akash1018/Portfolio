@@ -1,0 +1,75 @@
+.tooltip {
+  position: relative;
+}
+
+.tooltip:hover .tooltip_name {
+  opacity: 1;
+  background-color: #ffe4a3;
+  color: #6e6e6e;
+}
+
+.tooltip_img {
+  padding: 1rem 1rem;
+  width: 46px;
+  height: 40px;
+  transition: transform 250ms;
+}
+
+.tooltip_img.is-react {
+  transform-origin: center;
+  animation: rotateImage 4s linear infinite;
+}
+
+.tooltip_img:hover {
+  transform: translateY(-10px);
+}
+
+.tooltip_name {
+  opacity: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -160%);
+  pointer-events: none;
+  transition: opacity 0.25s ease-in-out;
+  font-weight: 800;
+}
+
+@keyframes rotateImage {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+  .tooltip_img{
+      padding: 0.5rem 0.5rem ;
+      width: 28px;
+      height: 28px;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .tooltip_img{
+      padding: 0.5rem 0.5rem ;
+      width: 40px;
+      height: 35px;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+  .tooltip_img{
+      padding: 1rem 1rem ;
+      width: 40px;
+      height: 40px;
+  }
+}

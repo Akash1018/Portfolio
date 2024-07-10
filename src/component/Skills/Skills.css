@@ -1,0 +1,122 @@
+.skill_main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 7rem 150px;
+    column-gap: 4rem;
+    transition: background .5s ease-in-out;
+    /* color: #424242; */
+}
+
+.skill_main.light-mode {
+    background-color: #d7e5f1;
+}
+
+.skill_main.dark-mode {
+    background-color: #131924;
+}
+
+.skill_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.skills_content-heading {
+    font-size: 2.2rem;
+}
+
+.skills_content-para {
+    font-size: 1.125rem;
+    font-weight: 400;
+    transition: all .5s ease-in-out;
+    margin: 0;
+}
+
+.skills_content-icons {
+    flex-basis: 50%;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 550px;
+    transition: gap .5s ease-in-out, max-width .5s ease-in-out;
+    flex-wrap: wrap;
+}
+
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+    .skill_main {
+        padding: 1rem;
+        margin-top: 1rem;
+        flex-direction: column;
+        text-align: center;
+    }
+    .skills_content-icons {
+        margin-top: 20px;
+    }
+    
+    .skills_content-heading{
+        font-size: 1.2rem;
+    }
+    
+    .skills_content-para{
+        font-size: 0.8rem;
+    }
+    .isize{
+        font-size: 1.8rem;
+        padding:1rem 1.4rem ;
+        width: 40px;
+        height: 35px;
+    }
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .skill_main{
+        padding: 1rem;
+        margin-top:5rem;
+    }
+    .icons{
+        
+    }
+    
+    .skills_content-heading{
+        font-size: 1.4rem;
+    }
+    
+    .skills_content-para{
+        
+    }
+    .isize{
+        font-size: 3rem;
+        padding:1rem 1.4rem ;
+        width: 40px;
+        height: 35px;
+    }
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .skill_main{
+        padding: 3rem;
+    }
+    .isize{
+        font-size: 3rem;
+        padding:1.2rem 1rem ;
+        width: 42px;
+        height: 35px;
+    }
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+  
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    
+}
+

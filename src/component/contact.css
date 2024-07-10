@@ -1,12 +1,11 @@
-.calign{
-    padding: 4rem 4rem;
+.contact_main-info{
+    padding: 2rem 7rem;
 }
 
 .ial{
    display: flex;
    justify-content: center;
-    font-size: 2.5rem;
-  
+   font-size: 2rem;  
 }
 .il:hover{
     transform: translateY(-10px);
@@ -17,11 +16,16 @@
     transition: transform 250ms;
 }
 
-.endl{
-    color: black;
+.is-light {
+    color: #424242;
 }
+
+.is-dark {
+    color: #8892b0;
+}
+
 @media (max-width: 480px) {
-    .calign{
+    .contact_main-info{
         padding: 2.5rem 0.5rem;
     }
     
@@ -38,7 +42,7 @@
   
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
-    .calign{
+    .contact_main-info{
         padding: 4rem 4rem;
     }
     
@@ -55,7 +59,7 @@
   
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px){
-    .calign{
+    .contact_main-info{
         padding: 4rem 4rem;
     }
     

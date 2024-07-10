@@ -1,5 +1,6 @@
-.struct {
-  padding: 7rem 5rem;
+.intro_main {
+  padding: 200px 150px 0 150px;
+  min-height: 73vh;
 }
 .des {
   display: flex;
@@ -8,22 +9,23 @@
 .intro {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-}
-h1 {
-  margin: 0;
+  gap: 5px;
 }
 .headS {
-  font-size: 2.6rem;
+  font-size: 1.625rem;
+  margin: 0;
+  /* color: #424242; */
 }
 .heade {
-  font-size: 2.6rem;
+  font-size: 2.25rem;
   color: #004792;
+  margin: 0;
 }
 
 .headp {
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   color: #004792;
+  margin: 0;
 }
 .resize {
   width: 17rem;
@@ -32,15 +34,73 @@ h1 {
   object-fit: cover;
 }
 
+.intro_image {
+  flex-shrink: 0;
+  position: relative;
+  width: 272px;
+  height: 272px;
+  z-index: 0;
+  margin: 0 40px 40px 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.intro_image:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: -1;
+  transition: transform 0.5s ease-in-out;
+  border: 4px solid #0077c0;
+}
+
+.intro_image:hover:after {
+  transform: translate(10px, 10px);
+}
+
 .introS {
   width: 80%;
-  font-weight: 100;
+  font-size: 1.125rem;
+  font-weight: 600;
+  /* color: #424242; */
+}
+
+.check-more-buttom {
+  width: 150px;
+  border: 2px solid #0077c0;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #0077c0;
+  font-weight: bold;
+  margin: 25px 0;
+  cursor: pointer;
+}
+
+.check-more-buttom:hover.is-light {
+  background-color: #0077c0;
+  color: #e1ebee;
+  transition: background-color 0.6s ease;
+  transition: color 0.6s ease;
+}
+
+.check-more-buttom:hover.is-dark {
+  background-color: #b9e6f4;
+  color: #0077c0;
+  transition: background-color 0.6s ease;
+  transition: color 0.6s ease;
 }
 
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
-  .struct {
-    padding: 3rem 1rem;
+  .intro_main {
+    padding: 100px 15px 0 15px;
+    min-height: 20vh;
   }
   .headS {
     font-size: 0.8rem;
@@ -51,7 +111,6 @@ h1 {
   }
   .headp {
     font-size: 0.8rem;
-    color: #004792;
     margin-top: -4px;
   }
   .introS {
@@ -62,11 +121,35 @@ h1 {
     height: 6.5rem;
     border-radius: 30rem;
   }
+  .intro_image {
+    width: 104px;
+    height: 104px;
+    margin: 0 15px 15px 0;
+  }
+  
+  .intro_image:after {
+    top: 10px;
+    left: 10px;
+  }
+  
+  .intro_image:hover:after {
+    transform: translate(5px,5px);
+  }
+
+  .check-more-buttom {
+    width: 80px;
+    border: 2px solid #0077c0;
+    padding: 5px 5px;
+    border-radius: 8px;
+    font-size: 8px;
+    text-align: center;
+    margin: 15px 0;
+  }
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
-  .struct {
+  .intro_main {
     padding: 2rem 3rem;
   }
   .headS {
@@ -78,7 +161,6 @@ h1 {
   }
   .headp {
     font-size: 1rem;
-    color: #004792;
     margin-top: -4px;
   }
   .introS {
@@ -87,12 +169,41 @@ h1 {
   .resize {
     border-radius: 30rem;
   }
+  .intro_image {
+    flex-shrink: 0;
+    position: relative;
+    width: 272px;
+    height: 272px;
+    z-index: 0;
+    margin: 0 40px 40px 0;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .intro_image:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: -1;
+    transition: transform 0.5s ease-in-out;
+    border: 4px solid #0077c0;
+  }
+  
+  .intro_image:hover:after {
+    transform: translate(10px, 10px);
+  }
 }
 
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
-  .struct {
-    padding: 10rem 1rem;
+  .intro_main {
+    padding: 200px 15px 0 15px;
+    min-height: 30vh;
   }
   .headS {
     font-size: 2rem;
@@ -103,7 +214,6 @@ h1 {
   }
   .headp {
     font-size: 1.5rem;
-    color: #004792;
     margin-top: -4px;
   }
   .introS {
@@ -113,6 +223,20 @@ h1 {
     width: 13rem;
     height: 13rem;
     border-radius: 30rem;
+  }
+  .intro_image {
+    width: 208px;
+    height: 208px;
+    margin: 0 15px 15px 0;
+  }
+  
+  .intro_image:after {
+    top: 16px;
+    left: 16px;
+  }
+  
+  .intro_image:hover:after {
+    transform: translate(5px,5px);
   }
 }
 
