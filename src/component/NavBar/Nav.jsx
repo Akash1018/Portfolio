@@ -21,13 +21,13 @@ const Nav = ({isDarkMode, toggleDarkMode}) => {
   },[prevScrollPos])
 
   const onButtonClick = () => {
-    fetch("finalresume.pdf").then((response) => {
+    fetch("Akash-Chaudhary-Resume.pdf").then((response) => {
       response.blob().then((blob) => {
         const fileURL = window.URL.createObjectURL(blob);
 
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "finalresume.pdf";
+        alink.download = "Akash-Chaudhary-Resume.pdf";
         alink.click();
       });
     });
