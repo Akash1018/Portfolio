@@ -19,7 +19,7 @@ const contact = ({isDarkMode}) => {
          <a href="https://www.linkedin.com/in/akash-chaudhary-709925195/overlay/contact-info/" target="_blank" className={isDarkMode ? 'is-dark' : 'is-light'}><MdMarkEmailUnread className='il'  /></a>
          <a href="https://www.linkedin.com/in/akash-chaudhary-709925195/" target="_blank" className={isDarkMode ? 'is-dark' : 'is-light'}><BsLinkedin className='il' /></a>
          <a href="https://github.com/Akash1018" target="_blank" className={isDarkMode ? 'is-dark' : 'is-light'}><BsGithub className='il' /></a>
-         <a href="https://leetcode.com/Peace1018/" target="_blank" className={isDarkMode ? 'is-dark' : 'is-light'}><SiLeetcode className='il' /></a>
+         <a href="https://leetcode.com/u/akash1018/" target="_blank" className={isDarkMode ? 'is-dark' : 'is-light'}><SiLeetcode className='il' /></a>
         </div>
     </div>
   )
