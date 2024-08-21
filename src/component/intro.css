@@ -12,18 +12,17 @@
   gap: 5px;
 }
 .headS {
-  font-size: 1.625rem;
+  font-size: 1.6rem;
   margin: 0;
-  /* color: #424242; */
 }
 .heade {
-  font-size: 2.25rem;
+  font-size: 1.8rem;
   color: #004792;
   margin: 0;
 }
 
 .headp {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #004792;
   margin: 0;
 }
@@ -103,10 +102,10 @@
     min-height: 20vh;
   }
   .headS {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .heade {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     margin-top: -5px;
   }
   .headp {

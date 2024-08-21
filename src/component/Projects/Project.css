@@ -42,12 +42,13 @@
 
 .project_content-heading {
   font-size: 2.2rem;
-  /* color: #424242; */
-}
-.ptext {
-  color: #004792;
+  text-align: end;
 }
 
+.ptext {
+  color: #004792;
+  font-size: 1.8rem;
+}
 
 .bcontent {
   display: flex;
@@ -55,7 +56,11 @@
 }
 
 .para {
-  font-size: 1.2rem;
+  font-size: 1.125rem;
+  font-weight: 400;
+  transition: all .5s ease-in-out;
+  margin: 0;
+  margin-bottom: 1rem;
 }
 .ilook {
   transition: transform 250ms;
@@ -90,6 +95,17 @@
 }
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
+  .project_content-heading {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .ptext {
+    font-size: 1rem;
+  }
+  .para {
+    font-size: 0.8rem;
+    margin-bottom: 0.6rem;
+  }
   .project_content {
     padding: 18px;
   }
@@ -105,6 +121,12 @@
   }
   .imsize {
     width: 100%;
+  }
+  .project_content_info-url {
+    padding-bottom: 1rem;
+  }
+  .git {
+    font-size: 1rem;
   }
 }
 /* Media Query for low resolution  Tablets, Ipads */

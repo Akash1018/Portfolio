@@ -7,18 +7,24 @@ import company2 from "../static/shushmoney_logo.jpg";
 export const info = [
   {
     id: "1",
-    name: "eCommerce website",
-    detail: `ecommerce website for retailers to sell items.You can add items, sort them according to price and also filter them
-        according to color and sizes. `,
+    name: "StyleRo",
+    detail: [
+    'Built StyleRo, an eCommerce platform using MongoDB, Express.js, React.js, and Node.js for seamless item browsing and ordering.',
+    'Used React Router and Redux for multi-page navigation and state management, delivering a clean UI.',
+    'Implemented Firebase and JWT for secure user authentication, with backend developed using Node.js, Express, and MongoDB.'
+    ],
     img: banner,
     linkgit: "https://github.com/Akash1018/ecommerce",
     linksite: "https://ecommerce-front.onrender.com/",
   },
   {
     id: "2",
-    name: "Social Media Platform",
-    detail:
-      " a full-stack social media application. With email and Google Authentication, pagination, search and filtering capabilities, comments, and much more, this app is the best fully responsive MERN social media application ",
+    name: "MEMOIR",
+    detail: [
+      'Memoir, a social media platform with features including user profiles, following, post uploads, likes/dislikes, and comments.',
+      'Built the platform using React.js, Node.js, Express.js, and MongoDB, ensuring robust and scalable performance.',
+      'Implemented secure user authentication with Firebase and JWT.',
+    ],
     img: banner2,
     linkgit: "https://github.com/Akash1018/socail_backend",
     linksite: "https://social-app-akash.onrender.com",
@@ -26,8 +32,11 @@ export const info = [
   {
     id: "3",
     name: "Unichat",
-    detail:
-      "Chat Application with social authentication including Google using Firebase, image support, sound notifications, the ability to create multiple rooms, and much more. ",
+    detail: [
+      'Unichat is a Chat Application with social authentication including Google using Firebase.',
+      'Helps in creating multiple rooms and sharing media',
+      'Tech stack: React.js, ChatEngine, Firebase, CSS.'
+    ],
     img: banner1,
     linkgit: "#",
     linksite: "https://heroic-wisp-48fdb9.netlify.app/chats",

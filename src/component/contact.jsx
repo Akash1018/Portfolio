@@ -8,18 +8,18 @@ const contact = ({isDarkMode}) => {
   return (
     <div className='contect_main'>
         <div className='contact_main-info' id="contact">
-            <h1>
+            <h1 className='contact_main-info-heading'>
                 Get in touch.
             </h1>
-            <p>
+            <p className='contact_main-info-para'>
                I would be happy to further discuss with you, simply shoot me an email or message me on LinkedIn! :)
             </p>
         </div>
-        <div className='ial'>
-         <a href="https://www.linkedin.com/in/akash-chaudhary-709925195/overlay/contact-info/" target="_blank" className={isDarkMode ? 'is-dark' : 'is-light'}><MdMarkEmailUnread className='il'  /></a>
-         <a href="https://www.linkedin.com/in/akash-chaudhary-709925195/" target="_blank" className={isDarkMode ? 'is-dark' : 'is-light'}><BsLinkedin className='il' /></a>
-         <a href="https://github.com/Akash1018" target="_blank" className={isDarkMode ? 'is-dark' : 'is-light'}><BsGithub className='il' /></a>
-         <a href="https://leetcode.com/u/akash1018/" target="_blank" className={isDarkMode ? 'is-dark' : 'is-light'}><SiLeetcode className='il' /></a>
+        <div className='contact_main_image'>
+         <a href="https://www.linkedin.com/in/akash-chaudhary-709925195/overlay/contact-info/" target="_blank" className={isDarkMode ? 'is-dark' : 'is-light'}><MdMarkEmailUnread className='contact_main_image-item'  /></a>
+         <a href="https://www.linkedin.com/in/akash-chaudhary-709925195/" target="_blank" className={isDarkMode ? 'is-dark' : 'is-light'}><BsLinkedin className='contact_main_image-item' /></a>
+         <a href="https://github.com/Akash1018" target="_blank" className={isDarkMode ? 'is-dark' : 'is-light'}><BsGithub className='contact_main_image-item' /></a>
+         <a href="https://leetcode.com/u/akash1018/" target="_blank" className={isDarkMode ? 'is-dark' : 'is-light'}><SiLeetcode className='contact_main_image-item' /></a>
         </div>
     </div>
   )

@@ -17,7 +17,9 @@ const project = ({ isDarkMode }) => {
           >
             <div className="project_content_info-content">
               <h1 className="ptext">{item.name}</h1>
-              <p className="para">{item.detail}</p>
+              {item.detail.map((ele) => (
+                <p className="para">{ele}</p>
+              ))}
               <div className="project_content_info-url">
               <a href={item.linkgit} target="_blank" className="git">
                 <FaGithub />

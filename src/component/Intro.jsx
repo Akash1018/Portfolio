@@ -11,7 +11,7 @@ const Intro = ({isDarkMode}) => {
           <h3 className="headS">Hello, I'm</h3>
           <h1 className="heade">Akash chaudhary.</h1>
           <h2 className="headp" style={{ opacity: 0.7 }}>
-            A Full-Stack Developer.
+            Software Engineer.
           </h2>
           <h2 className="introS">
             a proficient software engineer with expertise in JavaScript, C++,
