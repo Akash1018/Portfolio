@@ -198,6 +198,7 @@ const Nav = ({isDarkMode, toggleDarkMode}) => {
         </a>
       </div>
       <DarkModeSwitch
+        className="navbar_content-theme"
         moonColor="grey"
         sunColor="orange"
         checked={!isDarkMode}
