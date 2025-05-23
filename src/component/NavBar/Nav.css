@@ -23,14 +23,14 @@
   display: flex;
   gap: 48px;
 }
-.home {
+.navbar_item {
   text-decoration: none;
   color: #0077c0;
   font-weight: bold;
   transition: color 250ms;
   cursor: pointer;
 }
-.home:hover {
+.navbar_item:hover {
   color: #004792;
 }
 

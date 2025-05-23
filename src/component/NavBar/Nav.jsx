@@ -149,7 +149,7 @@ const Nav = ({isDarkMode, toggleDarkMode}) => {
           smooth={true}
           offset={50}
           duration={1000}
-          className="home"
+          className="navbar_item"
         >
           Home
         </Link>
@@ -159,7 +159,7 @@ const Nav = ({isDarkMode, toggleDarkMode}) => {
           smooth={true}
           offset={50}
           duration={1000}
-          className="home"
+          className="navbar_item"
         >
           Skills
         </Link>
@@ -169,7 +169,7 @@ const Nav = ({isDarkMode, toggleDarkMode}) => {
           smooth={true}
           offset={50}
           duration={1000}
-          className="home"
+          className="navbar_item"
         >
           Experience
         </Link>
@@ -179,7 +179,7 @@ const Nav = ({isDarkMode, toggleDarkMode}) => {
           smooth={true}
           offset={50}
           duration={1000}
-          className="home"
+          className="navbar_item"
         >
           Projects
         </Link>
@@ -189,11 +189,11 @@ const Nav = ({isDarkMode, toggleDarkMode}) => {
           smooth={true}
           offset={50}
           duration={1000}
-          className="home"
+          className="navbar_item"
         >
           Contact
         </Link>
-        <a onClick={onButtonClick} className="home">
+        <a onClick={onButtonClick} className="navbar_item">
           Resume
         </a>
       </div>
