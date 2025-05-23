@@ -1,4 +1,4 @@
-import pic from "../static/me.jpg";
+import pic from "../../static/me.jpg";
 import "./intro.css";
 import { Link } from "react-scroll";
 

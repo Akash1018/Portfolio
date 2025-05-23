@@ -1,4 +1,3 @@
-import React from 'react'
 import {MdMarkEmailUnread} from 'react-icons/md'
 import {BsLinkedin,BsGithub} from 'react-icons/bs'
 import {SiLeetcode} from 'react-icons/si'

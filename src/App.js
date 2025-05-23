@@ -1,8 +1,8 @@
 import Nav from "./component/NavBar/Nav";
-import Intro from "./component/Intro";
+import Intro from "./component/Intro/Intro";
 import Skills from "./component/Skills/Skills";
 import Project from "./component/Project/Project";
-import Contact from "./component/contact";
+import Contact from "./component/Contact/contact";
 import Exprience from "./component/Experience/Experience";
 import { SideBar } from "./component/SideBar/SideBar";
 import { Fragment, useState } from "react";

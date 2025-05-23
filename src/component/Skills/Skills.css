@@ -76,7 +76,7 @@
 @media (min-width: 481px) and (max-width: 767px) {
   .skill_main {
     padding: 1rem;
-    margin-top: 5rem;
+    margin-top: 0;
   }
   .skills_content-heading {
     font-size: 1.4rem;
