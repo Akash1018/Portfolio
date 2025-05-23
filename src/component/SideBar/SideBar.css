@@ -17,7 +17,7 @@
   transition: border-color 0.5s ease-in-out;
   width: 2px;
   left: 48%;
-  border-top: 200px solid #424242;
+  border-top:30vh solid #424242;
 }
 
 .leftBar_content {
@@ -95,12 +95,4 @@
   .sideBar_content {
     display: none;
   }
-}
-
-/* Media Query for Laptops and Desktops */
-@media (min-width: 1025px) and (max-width: 1280px) {
-}
-
-/* Media Query for Large screens */
-@media (min-width: 1281px) {
 }

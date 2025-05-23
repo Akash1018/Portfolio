@@ -1,4 +1,3 @@
-import React from "react";
 import { experience } from "../data";
 import "./Experience.css";
 
@@ -8,7 +7,7 @@ const Exprience = () => {
       <h1 className="top_heading">My Experience</h1>
       <div className="experience_innerContainer">
       {experience.map((item) => (
-          <div className="exp_content-item">
+          <div className="exp_content-item" key={item.company}>
             <div className="exp_content-info">
               <div className="exp_content-company--time">
               <h4 className="exp_content-company--position">{item.postion}</h4>
@@ -16,7 +15,7 @@ const Exprience = () => {
               </div>
               <h4 className="exp_content-company--name">{item.company}</h4>
               {item.detail.map((info) => (
-                <p class="exp_content-company--detail">{info}</p>
+                <p className="exp_content-company--detail" key={info}>{info}</p>
               ))}
             </div>
         </div>

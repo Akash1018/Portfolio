@@ -17,7 +17,7 @@ const Skills = ({isDarkMode}) => {
         <div className="skills_content-icons">
           {skillIcons.map((icon) => {
             return (
-              <ToolTip icon = {icon} />
+              <ToolTip icon = {icon} key={icon.name}/>
             )
           })}
         </div>

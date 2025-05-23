@@ -47,29 +47,29 @@
   }
 }
 
- /* Media Query for Mobile Devices */
- @media (max-width: 480px) {
-  .tooltip_img{
-      padding: 0.5rem 0.5rem ;
-      width: 28px;
-      height: 28px;
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .tooltip_img {
+    padding: 0.5rem 0.5rem;
+    width: 28px;
+    height: 28px;
   }
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
-  .tooltip_img{
-      padding: 0.5rem 0.5rem ;
-      width: 40px;
-      height: 35px;
+  .tooltip_img {
+    padding: 0.5rem 0.5rem;
+    width: 40px;
+    height: 35px;
   }
 }
 
 /* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1024px){
-  .tooltip_img{
-      padding: 1rem 1rem ;
-      width: 40px;
-      height: 40px;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .tooltip_img {
+    padding: 1rem 1rem;
+    width: 40px;
+    height: 40px;
   }
 }

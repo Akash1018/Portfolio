@@ -2,7 +2,6 @@ import React from "react";
 import './ToolTip.css';
 
 const ToolTip = ({icon}) => {
-    console.log(icon.name);
     return (
         <div className="tooltip">
         <img src = {icon.Component} className={`tooltip_img ${icon.name === 'ReactJS' && 'is-react'}`} alt={icon.alt}/>

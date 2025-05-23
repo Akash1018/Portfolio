@@ -6,7 +6,6 @@
 
 .App.light-mode {
   background-color: #e1ebee;
-  color: #6e6e6e;
   color: #424242;
   transition: background 0.5s ease-in-out;
 }

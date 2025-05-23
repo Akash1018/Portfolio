@@ -5,8 +5,7 @@ import Project from "./component/Projects/Project";
 import Contact from "./component/contact";
 import Exprience from "./component/Experience/Experience";
 import { SideBar } from "./component/SideBar/SideBar";
-import Cursor from "./component/Cursor/Cursor";
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import './App.css'
 
 function App() {
@@ -28,15 +27,14 @@ function App() {
 
   return (
     <div className={`App ${isDarkMode ? "dark-mode" : "light-mode"}`}>
-      <div>
+      <Fragment>
       <Nav isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode}/>
       <Intro isDarkMode={isDarkMode}/>
       <Skills isDarkMode={isDarkMode}/>
       <Exprience isDarkMode={isDarkMode}/>
       <Project isDarkMode={isDarkMode}/>
       <Contact isDarkMode={isDarkMode}/>
-      {/* <Cursor /> */}
-      </div>
+      </Fragment>
       <SideBar isDarkMode={isDarkMode}/>
     </div>
   );

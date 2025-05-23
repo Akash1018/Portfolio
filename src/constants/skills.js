@@ -15,17 +15,9 @@ import Mongo from '../static/tech/mongodb.svg';
 import Github from '../static/tech/github.svg';
 import Git from '../static/tech/git.svg';
 import Java from '../static/tech/java.svg'
-import Cpp from '../static/tech/c.svg';
 import AWS from '../static/tech/aws.svg'
 
-console.log(Bootstrap)
 const skillIcons = [
-	{
-		Component: Cpp,
-		name: 'C++',
-		alt: 'c++',
-		url: 'https://cplusplus.com/doc/tutorial/',
-	},
 	{
 		Component: Java,
 		name: 'Java',
@@ -99,12 +91,6 @@ const skillIcons = [
 		name: 'CSS',
 		alt: 'css',
 		url: 'https://www.w3.org/Style/CSS/Overview.en.html',
-	},
-	{
-		Component: Figma,
-		name: 'Figma',
-		alt: 'figma',
-		url: 'https://www.figma.com',
 	},
 	{
 		Component: Node,

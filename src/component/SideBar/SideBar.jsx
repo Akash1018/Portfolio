@@ -1,4 +1,3 @@
-import React from "react";
 import LeftBar from './LeftBar';
 import RightBar from "./RightBar";
 import './SideBar.css';

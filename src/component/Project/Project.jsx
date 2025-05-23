@@ -13,20 +13,24 @@ const project = ({ isDarkMode }) => {
       <div className="project_content_item">
         {info.map((item) => (
           <div
-            className={`project_content_info ${!(item.id % 2) && "is-reverse"} ${isDarkMode ? 'is-dark' : 'is-light'}`}
+            className={`project_content_info ${
+              !(item.id % 2) && "is-reverse"
+            } ${isDarkMode ? "is-dark" : "is-light"}`
+          }
+          key={item.id}
           >
             <div className="project_content_info-content">
               <h1 className="ptext">{item.name}</h1>
               {item.detail.map((ele) => (
-                <p className="para">{ele}</p>
+                <p className="para" key={ele}>{ele}</p>
               ))}
               <div className="project_content_info-url">
-              <a href={item.linkgit} target="_blank" className="git">
-                <FaGithub />
-              </a>
-              <a href={item.linksite} target="_blank" className="git">
-                <FaExternalLinkAlt />
-              </a>
+                <a href={item.linkgit} target="_blank" className="git">
+                  <FaGithub />
+                </a>
+                <a href={item.linksite} target="_blank" className="git">
+                  <FaExternalLinkAlt />
+                </a>
               </div>
             </div>
             <img className="imsize" src={item.img} />
