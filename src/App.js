@@ -1,7 +1,7 @@
 import Nav from "./component/NavBar/Nav";
 import Intro from "./component/Intro";
 import Skills from "./component/Skills/Skills";
-import Project from "./component/Projects/Project";
+import Project from "./component/Project/Project";
 import Contact from "./component/contact";
 import Exprience from "./component/Experience/Experience";
 import { SideBar } from "./component/SideBar/SideBar";
